@@ -9,4 +9,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 add_subdirectory(gtest-1.7.0)
 add_subdirectory(libcpp53)
+add_subdirectory(py53)
 add_subdirectory(test)

@@ -113,7 +113,6 @@ public:
     void toWire(OutputBuffer& buffer) const;
     NameComparisonResult compare(const Name& other) const;
 
-public:
     bool equals(const Name& other) const;
 
     bool operator==(const Name& other) const { return (equals(other)); }
